@@ -3,6 +3,7 @@ Publish to npm
 --------------
 
 pnpm version patch
+pnpm version minor
 pnpm run build
 pnpm run test
 git push && git push --tags
