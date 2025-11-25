@@ -1,5 +1,6 @@
-import { checkIsNumber } from "../number/checkIsNumber/checkIsNumber";
-import { throwErrorOnInvalidNumber } from "../number/throwErrorOnInvalidNumber";
+
+import { checkIsNumber } from "../../number/checkIsNumber/checkIsNumber";
+import { throwErrorOnInvalidNumber } from "../../number/throwErrorOnInvalidNumber";
 
 type TConvertToNumberProps = {
   value: unknown;

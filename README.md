@@ -47,7 +47,6 @@ pnpm  add js-utility-method
 | [checkIsNumber](https://github.com/sakilanwar12/js-utility-method/tree/main/src/number/checkIsNumber) | Checks if a value is a valid number (optionally finite). |
 | [checkIsPositiveNumber](https://github.com/sakilanwar12/js-utility-method/tree/main/src/number/checkIsPositiveNumber) | Checks if a value is a positive number. |
 | [checkIsValidRange](https://github.com/sakilanwar12/js-utility-method/tree/main/src/number/checkIsValidRange) | Validates if a number falls within a given range. |
-| [convertToNumber](https://github.com/sakilanwar12/js-utility-method/tree/main/src/number/convertToNumber) | Converts a value to a number with optional rounding and fallback. |
 | [isOdd](https://github.com/sakilanwar12/js-utility-method/tree/main/src/number/isOdd) | Checks if a number is odd. |
 | [multiply](https://github.com/sakilanwar12/js-utility-method/tree/main/src/number/multiply) | Multiplies two numbers. |
 | [randomInRange](https://github.com/sakilanwar12/js-utility-method/tree/main/src/number/randomInRange) | Generates a random number between a given min and max. |
@@ -77,6 +76,16 @@ pnpm  add js-utility-method
 | [removeSpaces](https://github.com/sakilanwar12/js-utility-method/tree/main/src/string/removeSpaces) | Removes all spaces from a string. |
 | [slugify](https://github.com/sakilanwar12/js-utility-method/tree/main/src/string/slugify) | Converts a string to a URL-friendly slug. |
 | [truncate](https://github.com/sakilanwar12/js-utility-method/tree/main/src/string/truncate) | Truncates a string to a specified length with an optional suffix. |
+
+
+### Convert
+
+| Name | Description |
+|--------|-------------|
+| [convertToNumber](https://github.com/sakilanwar12/js-utility-method/tree/main/src/convert/convertToNumber) | Converts a value to a number with optional rounding and fallback. |
+| [toCurrency](https://github.com/sakilanwar12/js-utility-method/tree/main/src/convert/toCurrency) | Converts a number to a currency format with locale and currency options. |
+
+
 
 
 ## License

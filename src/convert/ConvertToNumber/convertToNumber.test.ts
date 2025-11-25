@@ -1,4 +1,4 @@
-import { convertToNumber } from "../convert/convertToNumber";
+import { convertToNumber } from "./convertToNumber";
 
 describe("convertToNumber", () => {
   it("converts string number to number with default digit", () => {

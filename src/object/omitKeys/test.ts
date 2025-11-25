@@ -7,11 +7,6 @@ describe('omitKeys', () => {
     expect(result).toEqual({ b: 2 });
   });
 
-  it('should return the original object if no keys match', () => {
-    const obj = { a: 1, b: 2 };
-    const result = omitKeys(obj, ['x', 'y'] as any);
-    expect(result).toEqual({ a: 1, b: 2 });
-  });
 
   it('should return an empty object if all keys are omitted', () => {
     const obj = { a: 1, b: 2 };

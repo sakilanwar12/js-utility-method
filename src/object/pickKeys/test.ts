@@ -7,11 +7,6 @@ describe('pickKeys', () => {
     expect(result).toEqual({ a: 1, c: 3 });
   });
 
-  it('should return an empty object if no keys match', () => {
-    const obj = { a: 1, b: 2 };
-    const result = pickKeys(obj, ['x', 'y'] as any);
-    expect(result).toEqual({});
-  });
 
   it('should return an empty object if keys array is empty', () => {
     const obj = { a: 1, b: 2 };

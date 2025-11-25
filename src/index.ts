@@ -21,7 +21,8 @@ export { isArray } from "./array/isArray/isArray";
  =========== Convert Methods ==============
 */
 
-export { convertToNumber } from "./convert/convertToNumber";
+export { convertToNumber } from "./convert/ConvertToNumber/convertToNumber";
+export { toCurrency } from "./convert/toCurrency/toCurrency";
 
 /*
  =========== String Methods ==============

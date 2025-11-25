@@ -1,4 +1,3 @@
-<a name="convertToNumber"></a>
 
 ## convertToNumber() ⇒ <code>Number</code>
 

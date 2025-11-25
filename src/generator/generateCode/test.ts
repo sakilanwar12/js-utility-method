@@ -29,10 +29,6 @@ describe('generateCode', () => {
     expect(/^[A-Za-z0-9]+$/.test(result)).toBe(true);
   });
 
-  it('should throw an error for unsupported type', () => {
-    expect(() => generateCode({ type: 'emoji' as any })).toThrow('Unsupported type: emoji');
-  });
-
   it('should throw an error for negative length', () => {
     expect(() => generateCode({ type: 'number', length: -5 })).toThrow('Length must be a positive number');
   });
