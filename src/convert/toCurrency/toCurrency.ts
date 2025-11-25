@@ -25,13 +25,23 @@ export function toCurrency(
         return "";
     }
 
-    const numberValue = Number(value);
-    if (isNaN(numberValue)) return "";
+    const numberValue = typeof value === "string" ? Number(value.trim()) : value;
+    if (isNaN(numberValue)) {
+        return "";
+    }
+
+    // Normalize fraction digits to avoid RangeError
+    let minDigits = minimumFractionDigits;
+    let maxDigits = maximumFractionDigits;
+
+    if (minDigits > maxDigits) {
+        minDigits = maxDigits; // ensure min ≤ max
+    }
 
     return new Intl.NumberFormat(locale, {
         style: "currency",
         currency,
-        minimumFractionDigits,
-        maximumFractionDigits,
+        minimumFractionDigits: minDigits,
+        maximumFractionDigits: maxDigits,
     }).format(numberValue);
 }

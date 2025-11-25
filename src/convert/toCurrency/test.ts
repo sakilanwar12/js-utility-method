@@ -13,20 +13,20 @@ describe("toCurrency", () => {
         ).toBe("€5,000.00");
     });
 
-    test("formats with different locale", () => {
+    test("formats BDT currency with Bengali locale", () => {
         expect(
             toCurrency(9800.5, {
                 locale: "bn-BD",
                 currency: "BDT",
             })
-        ).toBe("৳৯,৮০০.৫০");
+        ).toBe("৯,৮০০.৫০৳");
     });
 
     test("handles string numbers", () => {
         expect(toCurrency("1500")).toBe("$1,500.00");
     });
 
-    test("handles null/undefined", () => {
+    test("handles null/undefined/empty string", () => {
         expect(toCurrency(null as unknown as number)).toBe("");
         expect(toCurrency(undefined as unknown as number)).toBe("");
         expect(toCurrency("")).toBe("");
