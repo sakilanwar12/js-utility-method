@@ -40,3 +40,4 @@ export { truncate } from "./string/truncate/truncate";
 
 export { generateCode } from "./generator/generateCode";
 export { generateStrongPassword } from "./generator/generateStrongPassword/generateStrongPassword";
+export { generateUUID } from "./generator/generateUUID/generateUUID";

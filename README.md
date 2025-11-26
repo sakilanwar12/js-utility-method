@@ -38,6 +38,7 @@ pnpm  add js-utility-method
 |--------|-------------|
 | [generateCode](https://github.com/sakilanwar12/js-utility-method/tree/main/src/generator/generateCode) | Generates a random code (numeric, alphabetic, or alphanumeric) — ideal for creating OTPs, verification codes, or temporary identifiers. |
 | [generateStrongPassword](https://github.com/sakilanwar12/js-utility-method/tree/main/src/generator/generateStrongPassword) | Generates a strong, secure password with customizable length and character types — including numbers, symbols, lowercase, and uppercase letters. Ideal for user passwords, admin credentials, and secure token creation.  |
+| [generateUUID](https://github.com/sakilanwar12/js-utility-method/tree/main/src/generator/generateUUID) | Generates a random UUID v4 string — ideal for creating unique identifiers, temporary IDs, session tokens, or tracking keys. Lightweight, dependency-free, and follows the standard UUID format. |
 
 
 ### Number
