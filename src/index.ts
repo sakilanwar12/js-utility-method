@@ -33,3 +33,10 @@ export { camelCase } from "./string/camelCase/camelCase";
 export { removeSpaces } from "./string/removeSpaces/removeSpaces";
 export { slugify } from "./string/slugify/slugify";
 export { truncate } from "./string/truncate/truncate";
+
+/*
+ =========== Generator Methods ==============
+*/
+
+export { generateCode } from "./generator/generateCode";
+export { generateStrongPassword } from "./generator/generateStrongPassword/generateStrongPassword";
