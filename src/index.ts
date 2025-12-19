@@ -28,8 +28,8 @@ export { isArray } from "./array/isArray/isArray";
 
 // Convert Methods
 
-
 export { convertToNumber } from "./convert/ConvertToNumber/convertToNumber";
+export { convertArrayToCSV } from "./convert/ConvertArrayToCSV/convertArrayToCSV";
 export { toCurrency } from "./convert/toCurrency/toCurrency";
 
 // Generator Methods
@@ -37,4 +37,3 @@ export { toCurrency } from "./convert/toCurrency/toCurrency";
 export { generateCode } from "./generator/generateCode";
 export { generateStrongPassword } from "./generator/generateStrongPassword/generateStrongPassword";
 export { generateUUID } from "./generator/generateUUID/generateUUID";
-
