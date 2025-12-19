@@ -1,7 +1,7 @@
 {
   "name": "js-utility-method",
   "author": "Sakil Anwar",
-  "version": "1.1.5",
+  "version": "2.0.0",
   "description": "A collection of common utility functions in TypeScript",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -28,8 +28,8 @@
     "version:patch": "pnpm version patch",
     "version:minor": "pnpm version minor",
     "version:major": "pnpm version major",
-    "push":"git push && git push --tags",
-    "publish":"pnpm publish --access public"
+    "push": "git push && git push --tags",
+    "publish": "pnpm publish --access public"
   },
   "keywords": [
     "utility",
