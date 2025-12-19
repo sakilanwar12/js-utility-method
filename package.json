@@ -24,6 +24,10 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
+    "docs:deploy": "vitepress deploy docs",
+    "version:patch": "pnpm version patch",
+    "version:minor": "pnpm version minor",
+    "version:major": "pnpm version major",
     "push":"git push && git push --tags",
     "publish":"pnpm publish --access public"
   },
