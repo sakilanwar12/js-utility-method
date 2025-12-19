@@ -5,6 +5,7 @@ export default defineConfig({
   title: "js-utility-method",
   description:
     "A lightweight collection of standalone JavaScript utility functions",
+  base: "/js-utility-method/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
