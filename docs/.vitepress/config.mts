@@ -6,8 +6,13 @@ export default defineConfig({
   description:
     "A lightweight collection of standalone JavaScript utility functions",
   base: "/js-utility-method/",
+  head: [
+    ["link", { rel: "icon", href: "/js-utility-method/favicon.png" }],
+    ["link", { rel: "shortcut icon", href: "/js-utility-method/favicon.png" }],
+  ],
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    logo: "/logo.png",
+    siteTitle: "js-utility-method",
     nav: [
       { text: "Home", link: "/" },
       { text: "Guide", link: "/guide/getting-started" },
@@ -22,12 +27,12 @@ export default defineConfig({
       {
         text: "API Reference",
         items: [
-          { text: "Array", link: "/api/array" },
-          { text: "String", link: "/api/string" },
-          { text: "Number", link: "/api/number" },
-          { text: "Object", link: "/api/object" },
           { text: "Convert", link: "/api/convert" },
           { text: "Generator", link: "/api/generator" },
+          { text: "Number", link: "/api/number" },
+          { text: "String", link: "/api/string" },
+          { text: "Array", link: "/api/array" },
+          { text: "Object", link: "/api/object" },
         ],
       },
     ],
