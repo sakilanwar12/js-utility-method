@@ -2,7 +2,15 @@
 
 A lightweight collection of standalone JavaScript utility functions — easy to use, adapt, and extend. Organized by purpose (e.g. arrays, strings, numbers), each method is designed for clarity, flexibility, and direct integration into any project.
 
-🚀 **[View Official Documentation](https://sakilanwar12.github.io/js-utility-method/)**
+---
+
+### 📖 [Explore the Full Documentation](https://sakilanwar12.github.io/js-utility-method/)
+
+[![npm version](https://img.shields.io/npm/v/js-utility-method.svg)](https://www.npmjs.com/package/js-utility-method)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
+
+---
 
 ## Contributing
 
