@@ -41,7 +41,7 @@ jobs:
         run: pnpm install
 
       - name: Build documentation
-        run: pnpm docs:build
+        run: pnpm run docs:build
 
       - name: Create .nojekyll
         run: touch docs/.vitepress/dist/.nojekyll

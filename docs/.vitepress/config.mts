@@ -7,8 +7,8 @@ export default defineConfig({
     "A lightweight collection of standalone JavaScript utility functions",
   base: "/js-utility-method/",
   head: [
-    ["link", { rel: "icon", href: "/js-utility-method/favicon.png" }],
-    ["link", { rel: "shortcut icon", href: "/js-utility-method/favicon.png" }],
+    ["link", { rel: "icon", href: "/favicon.png" }],
+    ["link", { rel: "shortcut icon", href: "/favicon.png" }],
   ],
   themeConfig: {
     logo: "/logo.png",

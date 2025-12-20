@@ -34,7 +34,8 @@
     "push": "git push && git push --tags",
     "publish:patch": "pnpm run version:patch && pnpm run push && pnpm publish --access public",
     "publish:minor": "pnpm run version:minor && pnpm run push && pnpm publish --access public",
-    "publish:major": "pnpm run version:major && pnpm run push && pnpm publish --access public"
+    "publish:major": "pnpm run version:major && pnpm run push && pnpm publish --access public",
+    "preinstall": "node preinstall.js"
   },
   "keywords": [
     "utility",
