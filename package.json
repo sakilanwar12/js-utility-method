@@ -20,6 +20,7 @@
   "scripts": {
     "build": "tsup",
     "test": "jest --watch",
+    "prepare": "pnpm run build && pnpm run test",
     "lint": "eslint src --ext .ts",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
